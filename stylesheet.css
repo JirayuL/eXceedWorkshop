@@ -4,19 +4,27 @@
 
 }
 
+.progressLine{
+    margin-left: 100px;
+}
+
+.progress{
+    width : 500px;
+}
+
 .container-fluid{
     background-color: #e98167;
     background-image: none;
     border-radius: 10px;
 }
 
-.btn-default{
+/* .btn-default{
     width : 200px !important;
     height: 200px !important;
-    margin: 70px !important;
+    margin: 50px !important;
     background-image: none;
 
-}
+} */
 
 p{
     font-family: sans-serif;
