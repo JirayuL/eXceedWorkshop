@@ -14,8 +14,7 @@
     <script src="index.js"></script>
 </head>
 
-<body style = "background-color : #fec2a3; border-radius : 40px;">
-    
+<body style="background-color : #fec2a3">
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
@@ -28,16 +27,23 @@
     </nav>
 
     <div class="buttonline">
-        <button type="button" id = "door" class="btn btn-default" style = "border-radius : 50px;" ><span class = "glyphicon glyphicon-log-in" style = "font-size : 40px;"></span><br><p>Door</p></button>
+        <input type="image" id = "door" src="doorclose.png" style = "margin-right : 80px; width : 300px; height : 300px;" >
+        <input type="image" id = "light" src="lightoff.png" style = "margin-right : 80px; width : 300px; height : 300px;" >
+        <input type="image" id = "air" src="airoff.png" style = "margin-right : 80px; width : 300px; height : 300px;" >
+
+
+          <!-- <button type="button" id = "door" class="btn btn-default" style = "border-radius : 50px;" ><img src = "doorclose.png" width = "200px" height = "200px"><span class = "glyphicon glyphicon-log-in" style = "font-size : 40px;"></span><br><p>Door</p></button>
         <button type="button" id = "light" class="btn btn-default" style = "border-radius : 50px;"><span class = "glyphicon glyphicon-fire" style = "font-size : 40px;"></span><br><p>Light</p></button>
-        <button type="button" id = "air" class="btn btn-default" style = "border-radius : 50px;" ><span class = "glyphicon glyphicon-user" style = "font-size : 40px;"></span><br><p>Air Condition</p></button>
-
+        <button type="button" id = "air" class="btn btn-default" style = "border-radius : 50px;" ><span class = "glyphicon glyphicon-user" style = "font-size : 40px;"></span><br><p>Air Condition</p></button>   -->
     </div>
-
-    <div class = "row">
-        
+    <div>
+        <div class = "col-md-4" > 
+            <p>People</p>
         </div>
-
+        <div class = "col-md-8">
+            <textarea class="text_a" id="result" style="width : 200px; height : 40px; border-radius : 10px" ;></textarea>
+        </div>
+    </div>
 </body>
 
 </html>
